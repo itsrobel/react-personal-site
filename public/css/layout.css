@@ -57,7 +57,7 @@ header .banner {
 header .banner-text { width: 100%; }
 header .banner-text h1 {
    font: 90px/1.1em 'opensans-bold', sans-serif;
-   color: #fff;
+   color: #F6D1F0;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
 }
@@ -193,7 +193,7 @@ ul#nav li.current a { color: #f5aa64; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
-   color: #fff;
+   color:#F6D1F0 ;
    margin-bottom: 12px;
 }
 #about p {
