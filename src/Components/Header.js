@@ -13,7 +13,7 @@ class Header extends Component {
 
     return (
       <header id="home">
-        <ParticlesBg color={["#f5aa64"]} type="cobweb" bg={true} />
+        <ParticlesBg color={["#f5aa64"]} type="cobweb" bg={true} style={{"height" : "420vh !important"}}/>
 
         <nav id="nav-wrap">
           {/* <a className="mobile-btn" href="#nav-wrap" title="Show navigation">

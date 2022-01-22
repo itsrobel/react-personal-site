@@ -24,6 +24,9 @@
 
 body { background: #0f0f0f; }
 
+.particles-bg-canvas-self {
+  height:420vh !important
+}
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
@@ -176,7 +179,7 @@ ul#nav li a {
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: #f5aa64; }
 
-
+particles-bg-canvas-self
 /* ------------------------------------------------------------------ */
 /* c. About Section
 /* ------------------------------------------------------------------ */
@@ -231,7 +234,7 @@ ul#nav li.current a { color: #f5aa64; }
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background: #353b43;
+   background: transparent;
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
@@ -793,7 +796,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background: #353b43;
+   background: !transparent;
    padding-top: 96px;
    padding-bottom: 102px;
    color: #fff;

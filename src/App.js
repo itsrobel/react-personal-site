@@ -9,6 +9,8 @@ import Resume from "./Components/Resume";
 import Contact from "./Components/Contact";
 import Portfolio from "./Components/Portfolio";
 
+import ParticlesBg from "particles-bg";
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -43,6 +45,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <ParticlesBg color={["#f5aa64"]} type="cobweb" bg={true} />
         <Header data={this.state.resumeData.main} />
         <About data={this.state.resumeData.main} />
         <Resume data={this.state.resumeData.resume} />

@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Fade, Slide } from "react-reveal";
 
+import ParticlesBg from "particles-bg";
+
 class Contact extends Component {
   render() {
     if (!this.props.data) return null;
@@ -15,11 +17,13 @@ class Contact extends Component {
 
     return (
       <section id="contact">
+        <ParticlesBg color={["#f5aa64"]} type="cobweb" bg={true} />
         <Fade bottom duration={1000}>
           <div className="row section-head">
             <div className="two columns header-col">
               <h1>
                 <span>Get In Touch.</span>
+
               </h1>
             </div>
 
@@ -89,6 +93,7 @@ class Contact extends Component {
                   <div>
                     <button className="submit">Submit</button>
                     <span id="image-loader">
+github' is assigned a value but never used   no-unused-vars
                       <img alt="" src="images/loader.gif" />
                     </span>
                   </div>
